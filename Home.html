@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        body {
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px;   
+        }
+        h1 {
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(190, 8, 8);
+        }
+        hr {
+            border-color: rgb(190, 8, 8);
+        }
+        img{
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        nav{
+            color: #fff;
+            border-radius: 5px;
+            nav a:hover {
+            background-color: rgb(190, 8, 8);
+            }
+        }
+        .paraghraph{
+            float: left;
+            text-align: center;
+            margin-left: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 40%;
+            float: right;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color:rgb(161, 84, 238);
+            box-shadow: 8px 8px 10px #888888;
+            border: 1px;
+            margin-right: 40px;
+           
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: rgb(190, 8, 8);
+            color: #fff;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: red;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: darkred;
+        }
+        .Features{
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Infomax Computer Academy</h1>
+    <hr>
+    <nav>
+        <button><a href="#">HOME </a></button>
+        <button><a href="Aboutus.html">ABOUT US </a></button>
+        <button><a href="Courses.html">COURSES </a></button>
+        <button><a href="NIELIT.html">NIELIT </a></button>
+        <button><a href="CURRICULUM%20VITAE.html">CURRICULUM VITAE</a></button>
+    </nav> 
+    <hr>
+    <img src="computer circle.jpg" alt="computer circle">
+
+    <div style="float: left; width: 50%; text-align: center;">
+        <h3>Welcome to</h3>
+        <h2>Infomax Computer Academy</h2>
+        <p class="paraghraph">
+            A professionally managed IT training institute, Infomax Computers Academy in Andheri
+            West offers a plethora of strategically devised courses in a large number of areas 
+            such as Software Programming, Hardware and Networking, Graphics and Animation, 
+            Accounting and also school and college-based IT syllabus. It has experienced a rapid
+            growth ever since its inception in 1996. A division of Raj Software Technology (India) 
+            Limited, the institute is considered to be one of the best. It endeavors to provide
+            quality computer training to its students so that they can secure prospective careers.
+            Undoubtedly, it is one of the best Computer Training Institutes in Andheri West, Mumbai.
+        </p>
+    </div>
+    <table border="1">
+        <tr>
+            <th colspan="2">Request Information</th>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="text" placeholder="Enter Name"></td>
+        </tr>
+        <tr>
+            <td><input type="email" name="email" id="email" placeholder="Email"></td>
+            <td> <input type="tel" placeholder="Phone"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><textarea name="Enter Message" id="Enter Message" cols="40" rows="4" placeholder="Enter Message"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: red; text-align: center;"><input type="submit" value="Submit Value"></td>
+        </tr>
+    </table>
+    <div style="text-align: center; margin-top: 500px;" >
+        <h2>OUR FEATURES</h2>
+    </div>
+    <div class="Features">
+        <img src="Screenshot (29).png" alt="Our Features">
+    </div>           
+                
+</body>
+</html>
